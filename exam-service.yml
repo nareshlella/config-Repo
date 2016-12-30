@@ -1,4 +1,4 @@
-setup: Helloo
+message: Helloo
 eureka:
   client:
     fetchRegistry: true

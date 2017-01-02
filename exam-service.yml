@@ -1,4 +1,4 @@
-message: Helloo
+message: Welcome to NewYear2017
 eureka:
   client:
     fetchRegistry: true

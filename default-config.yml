@@ -10,3 +10,10 @@ eureka:
   instance:
     hostname: ${vcap.application.uris[0]}
     nonSecurePort: 80
+    
+    
+# JPA / HIBERNATE
+spring.jpa.hibernate-ddl: true
+spring.jpa.hibernate.ddl-auto: create
+spring.h2.console.enabled: true    
+    

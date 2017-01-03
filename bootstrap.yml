@@ -7,10 +7,6 @@ eureka:
 ---
 spring:
   profiles: cloud
-service:
-  definition:
-    metadata:
-      uri: http://${spring.application.name}.${application.domain:cfapps.io}  
 eureka:
   instance:
     hostname: ${vcap.application.uris[0]}
